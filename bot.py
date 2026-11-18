@@ -5,7 +5,7 @@ from discord import app_commands
 import json
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("DISCORD_TOKEN")
 CONFIG_FILE = "config.json"
 
 intents = discord.Intents.default()
